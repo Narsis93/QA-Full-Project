@@ -1,4 +1,3 @@
-ID	Test Case	Steps	Expected	Result
-
-TC01	Login Functionality	Enter valid username & password	User navigates to Inventory page	Pass
-TC02	Add to Cart	Click Add to Cart	Item count increases	Pass
+ID | Test Case | Steps | Expected | Result
+TC01 | Login Functionality | Enter valid username & password | User navigates to Inventory page | Pass
+TC02 | Add to Cart | Click Add to Cart | Cart count increases | Pass
