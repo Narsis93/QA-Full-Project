@@ -1,1 +1,37 @@
-
+{
+  "info": {
+    "name": "FakeStore API Testing",
+    "_postman_id": "test-collection-001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Products",
+      "request": {
+        "method": "GET",
+        "url": "https://fakestoreapi.com/products"
+      },
+      "response": []
+    },
+    {
+      "name": "Get Single Product",
+      "request": {
+        "method": "GET",
+        "url": "https://fakestoreapi.com/products/1"
+      },
+      "response": []
+    },
+    {
+      "name": "User Login",
+      "request": {
+        "method": "POST",
+        "url": "https://fakestoreapi.com/auth/login",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"username\":\"mor_2314\",\"password\":\"83r5^_\"}"
+        }
+      },
+      "response": []
+    }
+  ]
+}
