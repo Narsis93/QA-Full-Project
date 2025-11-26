@@ -1,9 +1,5 @@
-[x] Login page loads
-
-[x] Valid login works
-
-[x] Button clickable
-
-[ ] Error message for invalid login
-
-[ ] Cart badge updates
+Item | Status
+Login page loads | Done
+Valid login works | Done
+Error message for invalid login | Pending
+Cart badge updates | Pending
