@@ -1,1 +1,3 @@
+ID	Bug Title	Severity	Steps to Reproduce	Expected	Actual
 
+B01	Cart badge not updating	High	Add item → badge stays 0	Badge shows 1	Badge stays 0
