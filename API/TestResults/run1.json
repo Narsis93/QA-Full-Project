@@ -1,1 +1,70 @@
-
+{
+  "collection": "User API Automation Suite",
+  "environment": "Production",
+  "runInfo": {
+    "executedAt": "2025-01-15T10:45:32.000Z",
+    "totalRequests": 6,
+    "totalAssertions": 14,
+    "failedAssertions": 0,
+    "executionTimeMs": 1820
+  },
+  "results": [
+    {
+      "name": "GET - Fetch User List",
+      "method": "GET",
+      "endpoint": "https://api.example.com/users",
+      "status": "Passed",
+      "responseCode": 200,
+      "assertions": [
+        { "check": "Status code is 200", "result": "Passed" },
+        { "check": "Response contains user list", "result": "Passed" }
+      ]
+    },
+    {
+      "name": "POST - Create New User",
+      "method": "POST",
+      "endpoint": "https://api.example.com/users",
+      "status": "Passed",
+      "responseCode": 201,
+      "assertions": [
+        { "check": "Status code is 201", "result": "Passed" },
+        { "check": "User ID is returned", "result": "Passed" }
+      ]
+    },
+    {
+      "name": "GET - Fetch Created User",
+      "method": "GET",
+      "endpoint": "https://api.example.com/users/123",
+      "status": "Passed",
+      "responseCode": 200,
+      "assertions": [
+        { "check": "User exists", "result": "Passed" }
+      ]
+    },
+    {
+      "name": "PUT - Update User Info",
+      "method": "PUT",
+      "endpoint": "https://api.example.com/users/123",
+      "status": "Passed",
+      "responseCode": 200,
+      "assertions": [
+        { "check": "Status code is 200", "result": "Passed" },
+        { "check": "Updated info is correct", "result": "Passed" }
+      ]
+    },
+    {
+      "name": "DELETE - Remove User",
+      "method": "DELETE",
+      "endpoint": "https://api.example.com/users/123",
+      "status": "Passed",
+      "responseCode": 204,
+      "assertions": [
+        { "check": "Status code is 204", "result": "Passed" }
+      ]
+    }
+  ],
+  "summary": {
+    "overallStatus": "PASSED",
+    "message": "All API tests executed successfully with zero failures."
+  }
+}
